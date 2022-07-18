@@ -16,7 +16,7 @@ class spotifyClient:
             url, 
             headers = {
                 "Content-Type": "application/json", 
-                "Authorization": f"Bearer {self.authorization_token}"
+                "Authorization": f"Bearer {self.client_id}"
             }
         )
         return response
@@ -64,7 +64,7 @@ class spotifyClient:
             data = data, 
             headers = {
                 "Content-Type": "application/json", 
-                "Authorization": f"Bearer {self.authorization_token}"
+                "Authorization": f"Bearer {self.client_id}"
             }
         )
 
