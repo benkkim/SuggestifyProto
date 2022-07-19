@@ -3,7 +3,7 @@ import requests
 from track import Track
 from playlist import Playlist
 
-class spotifyClient: 
+class SpotifyClient: 
     #Spotify Client that handles all the communication and operations with the Spotify API'
     def __init__(self, client_id, client_secret):
         self.client_id = client_id

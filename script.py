@@ -1,8 +1,5 @@
 import os
 
-
-import os
-
 from spotifyClient import SpotifyClient
 
 
